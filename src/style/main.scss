@@ -1,0 +1,128 @@
+/* main */
+
+body {
+  height: 100vh;
+  padding: 30px 100px 24px 509px;
+}
+
+.quote-container {
+  margin-top: 140px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* main */
+
+/* quote content */
+.QuoteContent {
+  width: 614px;
+  padding-left: 100px;
+  margin-left: -80px;
+  margin-bottom: 140px;
+
+
+  border-left: 8px solid $primary-color;
+
+  .quote__text {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
+
+    color: #000000;
+  }
+}
+/* quote content */
+
+/* quote details */
+.QuoteDetails {
+  padding: 29px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .text {
+    .quote-author {
+      font-family: $primary-font;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+
+      color: $secondary-text-color;
+
+      margin-bottom: 8px;
+    }
+    .quote-genre {
+      font-family: $primary-font, sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+
+      color: $tertiary-text-color;
+    }
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+
+    color: white;
+  }
+}
+
+.QuoteDetails:hover {
+  background: $secondary-color;
+
+  .quote-author {
+    color: $tertiary-color;
+  }
+}
+/* quote details */
+
+/* random btn */
+.RandomQuoteBtn {
+  display: flex;
+  justify-content: flex-end;
+
+  height: 30px;
+
+  button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .btn-text {
+      font-family: $primary-font, sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 120%;
+      color: $secondary-color;
+      margin-right: 11px;
+    }
+    .btn-icon {
+      font-size: 24px;
+      color: $secondary-color;
+    }
+  }
+}
+/* random btn */
+
+/* Author quotes */
+.AuthorQuotes {
+  .author-quote__title {
+    font-family: $primary-font, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-left: 30px;
+
+    color: $secondary-color;
+  }
+}
+/* Author quotes */
