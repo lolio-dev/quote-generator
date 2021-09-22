@@ -1,14 +1,22 @@
+<!-- Please update value in the {}  -->
+
+<h1 align="center">Quote generator</h1>
+
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
+
 <div align="center">
   <h3>
-    <a href="https://todo-app-fbc58.firebaseapp.com/">
+    <a href="https://614a3eb6841ec81766f1c104--quizzical-visvesvaraya-148dd9.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/lolio-dev/todo-app">
+    <a href="https://github.com/lolio-dev/quote-generator">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">
+    <a href="https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8">
       Challenge
     </a>
   </h3>
@@ -19,30 +27,31 @@
 ## Table of Contents
 
 - [Overview](#overview)
-    - [Built With](#built-with)
+  - [Built With](#built-with)
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](./screenshot.png)
+![screenshot](https://raw.githubusercontent.com/lolio-dev/quote-generator/main/screenshot1.png)
+![screenshot](https://raw.githubusercontent.com/lolio-dev/quote-generator/main/screenshot2.png)
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [Vue.js](https://vuejs.org/)
-- [Firebase](https://firebase.google.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Scss](https://sass-lang.com/)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8) was to build an application to complete the given user stories.
 
 ## How To Use
 
@@ -52,7 +61,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/lolio-dev/your-project-name
 
 # Install dependencies
 $ npm install
