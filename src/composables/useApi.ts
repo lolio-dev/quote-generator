@@ -4,7 +4,7 @@ import useFetch from "./useFetch";
 const useApi = () => {
 
     const getRandomQuote = async () : Promise<Quote>=> {
-        const data = await useFetch('https://quote-garden.herokuapp.com/api/v3/quotes/random');
+        const data = await useFetch('https://quote-garden.onrender.com/api/v3/quotes/random');
 
         const text = data[0]['quoteText']
         const author = data[0]['quoteAuthor']
@@ -14,7 +14,7 @@ const useApi = () => {
     }
 
     const getRandomsQuotesFromAuthor = async (count: number, author: string) : Promise<Array<Quote>> => {
-        const url = `https://quote-garden.herokuapp.com/api/v3/quotes/random?author=${author}&count=${count}`
+        const url = `https://quote-garden.onrender.com/api/v3/quotes/random?author=${author}&count=${count}`
         const data = await useFetch(url)
 
         return data.map((quote: any) => {
